@@ -1,0 +1,10 @@
+./CPPBackendPlusModal/node_modules/
+./CPPBackendPlusModal/.env
+./CPPBackendPlusModal/*.log
+./CPPFrontend/Dockerfile
+
+./CPPFrontend/node_modules
+./CPPFrontend/dist
+./CPPFrontend/dist-ssr
+./CPPFrontend/*.local
+./CPPFrontend/.env
