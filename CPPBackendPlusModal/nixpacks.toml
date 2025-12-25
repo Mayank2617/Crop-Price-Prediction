@@ -1,0 +1,17 @@
+[build]
+nixpacksVersion = "1.4.0"
+
+[phases.setup]
+nixPkgs = [
+  "python311",
+  "python311Packages.joblib",
+  "python311Packages.pandas",
+  "python311Packages.matplotlib",
+  "python311Packages.scikit-learn",
+  "python311Packages.xgboost",
+  "python311Packages.numpy",
+  "nodejs_18"
+]
+
+[start]
+cmd = "node server.js"
